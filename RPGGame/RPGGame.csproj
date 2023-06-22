@@ -12,5 +12,13 @@
     <Content Include="PlayerClasses\Player.cs" />
     <Content Include="Enums\PlayerClass.cs" />
     <Content Include="PlayerClasses\Warrior.cs" />
+    <Content Include="Items\Item.cs" />
+    <Content Include="Items\ItemClass.cs" />
+    <Content Include="Enums\ItemTypes.cs" />
+    <Content Include="Enums\PlayerTypes.cs" />
+    <Content Include="Enums\PlayerType.cs" />
+    <Content Include="Enums\ItemType.cs" />
+    <Content Include="Enums\RarityType.cs" />
+    <Content Include="Enums\RarityTypes.cs" />
   </ItemGroup>
 </Project>

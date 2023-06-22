@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+using RPGGame.Enums;
 
-namespace RPGGame
+namespace RPGGame.PlayerClasses
 {
     public abstract class Player
     {
@@ -12,7 +13,7 @@ namespace RPGGame
         public string       name;
         public int          playerId;
         public int          armourRating;
-        public PlayerClass  playerClass = PlayerClass.AverageJoe;
+        public PlayerType  playerClass = PlayerType.AverageJoe;
         
         // Stats 
         public int          health      = 100;

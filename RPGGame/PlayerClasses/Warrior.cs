@@ -15,7 +15,7 @@ namespace RPGGame.PlayerClasses
             magic       = 0;
             luck        = 10;
             agility     = 5;
-            playerClass = PlayerClass.Warrior;
+            playerClass = Enums.PlayerType.Warrior;
         }
     }
 }

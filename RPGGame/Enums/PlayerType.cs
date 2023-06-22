@@ -1,6 +1,6 @@
-namespace RPGGame
+namespace RPGGame.Enums
 {
-    public enum PlayerClass
+    public enum PlayerType
     {
         Warrior, 
         Archer,
