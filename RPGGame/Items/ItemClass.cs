@@ -29,7 +29,5 @@ namespace RPGGame.Items
             Value           = aValue;
             Weight          = aWeight;
         }
-
-
     }
 }
