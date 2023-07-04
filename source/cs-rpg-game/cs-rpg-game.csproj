@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>cs_rpg_game</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Program.cs" />
+    <Content Include="Enums\ItemType.cs" />
+    <Content Include="PlayerClasses\Player.cs" />
+    <Content Include="PlayerClasses\Warrior.cs" />
+    <Content Include="Enums\PlayerType.cs" />
+    <Content Include="Items\ItemClass.cs" />
+    <Content Include="Enums\RarityType.cs" />
+    <Content Include="cs-rpg-game.sln" />
+    <Content Include="PlayerClasses\Rogue.cs" />
+    <Content Include="PlayerClasses\Archer.cs" />
+    <Content Include="PlayerClasses\Wizard.cs" />
+    <Content Include="PlayerClasses\Serf.cs" />
+    <Content Include="Enums\StorageType.cs" />
+  </ItemGroup>
+</Project>

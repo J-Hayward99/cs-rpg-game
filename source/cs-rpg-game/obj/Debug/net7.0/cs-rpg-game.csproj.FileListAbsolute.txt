@@ -1,0 +1,15 @@
+i:\Github\cs-rpg-game\source\cs-rpg-game\bin\Debug\net7.0\cs-rpg-game.exe
+i:\Github\cs-rpg-game\source\cs-rpg-game\bin\Debug\net7.0\cs-rpg-game.deps.json
+i:\Github\cs-rpg-game\source\cs-rpg-game\bin\Debug\net7.0\cs-rpg-game.runtimeconfig.json
+i:\Github\cs-rpg-game\source\cs-rpg-game\bin\Debug\net7.0\cs-rpg-game.dll
+i:\Github\cs-rpg-game\source\cs-rpg-game\bin\Debug\net7.0\cs-rpg-game.pdb
+i:\Github\cs-rpg-game\source\cs-rpg-game\obj\Debug\net7.0\cs-rpg-game.csproj.AssemblyReference.cache
+i:\Github\cs-rpg-game\source\cs-rpg-game\obj\Debug\net7.0\cs-rpg-game.GeneratedMSBuildEditorConfig.editorconfig
+i:\Github\cs-rpg-game\source\cs-rpg-game\obj\Debug\net7.0\cs-rpg-game.AssemblyInfoInputs.cache
+i:\Github\cs-rpg-game\source\cs-rpg-game\obj\Debug\net7.0\cs-rpg-game.AssemblyInfo.cs
+i:\Github\cs-rpg-game\source\cs-rpg-game\obj\Debug\net7.0\cs-rpg-game.csproj.CoreCompileInputs.cache
+i:\Github\cs-rpg-game\source\cs-rpg-game\obj\Debug\net7.0\cs-rpg-game.dll
+i:\Github\cs-rpg-game\source\cs-rpg-game\obj\Debug\net7.0\refint\cs-rpg-game.dll
+i:\Github\cs-rpg-game\source\cs-rpg-game\obj\Debug\net7.0\cs-rpg-game.pdb
+i:\Github\cs-rpg-game\source\cs-rpg-game\obj\Debug\net7.0\cs-rpg-game.genruntimeconfig.cache
+i:\Github\cs-rpg-game\source\cs-rpg-game\obj\Debug\net7.0\ref\cs-rpg-game.dll
