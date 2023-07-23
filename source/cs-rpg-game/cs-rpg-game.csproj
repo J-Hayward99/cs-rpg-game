@@ -21,5 +21,25 @@
     <Content Include="PlayerClasses\Wizard.cs" />
     <Content Include="PlayerClasses\Serf.cs" />
     <Content Include="Enums\StorageType.cs" />
+    <Content Include="ItemClasses\ItemType.cs" />
+    <Content Include="PlayerClasses\PlayerBase.cs" />
+    <Content Include="ItemClasses\ItemBase.cs" />
+    <Content Include="EnemyClasses\EnemyBase.cs" />
+    <Content Include="People\EnemyClasses\EnemyBase.cs" />
+    <Content Include="PeopleClasses\PlayerClasses\PlayerBase.cs" />
+    <Content Include="PeopleClasses\PeopleBase.cs" />
+    <Content Include="PeopleClasses\EnemyClasses\EnemyBase.cs" />
+    <Content Include="PeopleClasses\EnemyClasses\Goblin.cs" />
+    <Content Include="PeopleClasses\EnemyClasses\Goblin copy.cs" />
+    <Content Include="PeopleClasses\EnemyClasses\GoblinBase.cs" />
+    <Content Include="PeopleClasses\EnemyClasses\GoblinClasses\GoblinBase.cs" />
+    <Content Include="PeopleClasses\EnemyClasses\AnimalClasses\AnimalBase.cs" />
+    <Content Include="PeopleClasses\EnemyClasses\AnimalClasses\GoblinBase.cs" />
+    <Content Include="ItemClasses\ArmourClasses\MailArmour.cs" />
+    <Content Include="ItemClasses\ArmourClasses\ArmourBase.cs" />
+    <Content Include="ItemClasses\ArmourClasses\LeatherArmour.cs" />
+    <Content Include="ItemClasses\ArmourClasses\PlatedArmour.cs" />
+    <Content Include="PeopleClasses\PlayerClasses\Archer.cs" />
+    <Content Include="PeopleClasses\PlayerClasses\Rogue.cs" />
   </ItemGroup>
 </Project>

@@ -1,16 +1,14 @@
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using cs_rpg_game.Enums;
 using RPGGame.Enums;
 
-
-namespace RPGGame.PlayerClasses
+namespace cs_rpg_game.PeopleClasses
 {
-    public abstract class Player
+    public abstract class PeopleBase
     {
         // Terms
         protected const int     EMPTY_SLOT          = 0;
@@ -21,9 +19,7 @@ namespace RPGGame.PlayerClasses
 
         // General
         public string       Name            {get;set;}  = "_MISSING_";
-        static public int   PlayerId        {get;set;}  = 0;
         public int          ArmourRating    {get;set;}  = 0;
-        public PlayerType   PlayerClass     {get;set;}  = PlayerType.Serf;
         
         // Stats 
         public int          Health          {get;set;}  = 10;
@@ -61,7 +57,7 @@ namespace RPGGame.PlayerClasses
   
 
         // Constructor
-        protected Player(string aName = "MISSING_NAME")
+        protected PeopleBase(string aName = "MISSING_NAME")
         {
             // Personal Stuff
             Name    = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(
@@ -74,28 +70,6 @@ namespace RPGGame.PlayerClasses
             Backpack            = new string[InvSize];
         }
         
-        // Actions
-        public void DeclareOneself()
-        {
-            Console.WriteLine($"I AM A {PlayerClass}!".ToUpper());
-        }
-
-        // Information Declarations
-        public void WhatIsBackpackSize()
-        {
-            Console.WriteLine($"Current backpack size: {InvSize}");
-        }
-
-        public void WhatIsName()
-        {
-            Console.WriteLine($"My name is {Name}");
-        }
-        
-        public void WhatIsBackpackContents()
-        {
-            Console.WriteLine("[{0}]", string.Join(", ", Backpack));
-        }
-
         // Generation
         protected void GenerateBackpack()
         {
